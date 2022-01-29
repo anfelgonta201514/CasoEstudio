@@ -1,0 +1,218 @@
+.main-services {
+    margin-top     : 70px;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+}
+
+.main-services .main-services--title {
+    font-size       : 6rem;
+    font-weight     : bold;
+    padding         : 10px;
+    background-color: #baff00;
+    margin-bottom   : 90px;
+}
+
+.main-services--plans div {
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/1.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--plans h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--plans p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--plans button {
+    margin-top      : 10px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
+
+.main-services--conceptual div {
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/2.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--conceptual h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--conceptual p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--conceptual button {
+    margin-top      : 10px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
+
+.main-services--apartment div {
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/3.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--apartment h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--apartment p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--apartment button {
+    margin-top      : 10px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
+
+.main-services--skyscrapers div {
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/4.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--skyscrapers h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--skyscrapers p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--skyscrapers button {
+    margin-top      : 10px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
+
+.main-services--documentation div {
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/5.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--documentation h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--documentation p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--documentation button {
+    margin-top      : 10px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
+
+.main-services--restauration div {
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    margin-left        : 15px;
+    width              : 59px;
+    height             : 52px;
+    background-image   : url("../../../assets/images/icons/dark/6.png");
+    background-position: right;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+.main-services--restauration h3 {
+    margin-left: 15px;
+    font-size  : 2.4rem;
+}
+
+.main-services--restauration p {
+    margin-left: 15px;
+    margin-top : 30px;
+    color      : var(--gray);
+    font-size  : 1.5rem;
+    line-height: 30px;
+}
+
+.main-services--restauration button {
+    margin-top      : 10px;
+    margin-bottom   : 100px;
+    margin-left     : 15px;
+    background-color: var(--white);
+    border          : none;
+    font-size       : 1.2rem;
+    font-weight     : bold;
+}
