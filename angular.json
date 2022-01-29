@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "CasoEstudio"
+  "defaultProject": "CasoEstudio",
+  "cli": {
+    "analytics": "66a4162d-bcea-4543-a674-f9cdad6b0378"
+  }
 }
