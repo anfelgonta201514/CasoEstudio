@@ -1,0 +1,133 @@
+.logo-area {
+    float: left;
+    display: inline-block;
+    background: #121212;
+    padding: 20px 60px 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-switch {
+    display: none;
+}
+
+.phone-number {
+    float: right;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #baff00;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: inline-block;
+    float: right;
+}
+
+.nav-menu ul {
+    list-style: none;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    display: inline;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav-menu ul li a {
+    display: inline-block;
+    padding: 40px 10px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-menu ul li.active>a:after {
+    height: 25px;
+}
+
+.nav-menu ul li a:hover:after {
+    height: 25px;
+}
+
+.nav-menu ul li a:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 0;
+    left: 50%;
+    margin-left: 1px;
+    top: 0;
+    background: #baff00;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+@media only screen and (max-width: 479px){
+    .header-area {
+        background: #121212;
+        padding-right: 66px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 50;
+    }
+    .logo-area {
+        padding: 20px 30px 30px;
+        float: left;
+        display: inline-block;
+        background: #121212;
+        padding: 20px 60px 30px;
+    }
+    .nav-menu {
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        border-top: 2px solid;
+    }    
+}
+
+@media only screen and (max-width: 767px){
+    .nav-switch {
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        color: #fff;
+        top: 20px;
+        display: block;
+    }
+    .phone-number {
+        display: none;
+    }
+    .nav-menu {
+        position: absolute;
+        width: calc(100% - 90px);
+        left: 80px;
+        background: #121212;
+        top: 100%;
+        margin-top: 11px;
+        display: none;
+    }
+}

@@ -3,11 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: HeaderComponent,
+  },
+  {
+    path: 'about-us',
+    component: AboutUsComponent,
   }
 ];
 
